@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+       <head>
+		     
+		           <script src="https://code.angularjs.org/1.6.0-rc.2/angular.min.js"></script>
+				   <script src="https://code.angularjs.org/1.6.0-rc.2/angular-route.min.js"></script>
+		           <script src="https://code.angularjs.org/1.6.0-rc.2/angular-resource.min.js"></script>
+				   <script src="weather.js"></script>
+				   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+				  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+				  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	   
+	  	   
+	  
+	  </head>
+	 
+	 
+	 
+	 
+	   <body>
+		   
+		  
+		    <nav class="navbar navbar-default navbar-fixed-top">
+			  <div class="container">
+				<h2>Weather Forecast</h2>
+				  <div class="btnsss">
+		            <a href="#/first" class="btn btn-primary" >Home</a>
+		         </div>	    
+				  
+					  
+  			  </div>
+            </nav>
+		   
+		   
+		   <style>
+			   .btnsss{
+				   		position: fixed;
+						top:10%;
+						left:90%;
+						margin-top: -50px;
+						margin-left:-100px;
+				   
+			   }
+		   
+		   
+		   
+		   
+		   </style>
+
+		   
+		   <div class="container">
+		   	    		    
+				   <div class="container">
+				      <div ng-view></div>
+
+
+				   </div>
+		   
+		   
+		   </div>
+
+	 
+	 
+	 
+	 
+	 
+	   </body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
